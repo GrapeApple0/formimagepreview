@@ -8,7 +8,7 @@
                 if (filetype == "") {
                   filetype = filename.split('.').pop() + "file";
                 }
-                let filesize = formatSize(obj.files[i].size);
+                let filesize = obj.files[i].size;
                 fileReader.onload = (function(e) {
                   if (isimage == true) {
                     isimage = false;
