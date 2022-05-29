@@ -22,7 +22,7 @@
                   } else {
                     document.getElementById('preview').innerHTML +=
                       '<div class="preitem">' +
-                      '<img src="https://04.si/favicon.png" style="width: 120px;"><br>' +
+                      '<img src="https://04.si/favicon.png" style="width: 120px;"><br>' + //ファイルが画像以外の物の場合
                       '<label class="fname">' + filename + '</label>' +
                       '<label>' + filetype + '</label><br>' +
                       '<label>' + filesize + '</label>' +
